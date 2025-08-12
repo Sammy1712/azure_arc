@@ -50,6 +50,7 @@ param natGatewayName string = 'LocalBox-NatGateway'
 @allowed([
   'Standard_E32s_v5'
   'Standard_E32s_v6'
+  'Standard EDSv4'
 ])
 param vmSize string = 'Standard_E32s_v6'
 
