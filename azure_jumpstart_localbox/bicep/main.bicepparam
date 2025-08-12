@@ -1,6 +1,6 @@
 using './main.bicep'
 
-param tenantId = '<your tenant id>'
+param tenantId = '235'
 param spnProviderId = '<your Microsoft.AzureStackHCI resource provider object id>'
 param windowsAdminUsername = 'arcdemo'
 param windowsAdminPassword = '<your password>'
